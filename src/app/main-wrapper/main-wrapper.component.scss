@@ -1,0 +1,8 @@
+main {
+    padding: 3rem;
+    background-color: rgb(245, 237, 237);
+    margin-left: var(--sidebar-width);
+    //height: calc(50vh - var(--header-height));
+    height: auto;
+    overflow: auto;
+  }

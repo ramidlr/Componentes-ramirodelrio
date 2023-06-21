@@ -1,0 +1,33 @@
+aside {
+    height: calc(100vh - var(--header-height));
+    width: var(--sidebar-width);
+    background-color: black;
+    position: fixed;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    margin-top: 40px;
+  }
+
+  .menu li a {
+    display: block;
+    margin: 0;
+    padding: 6px;
+    color:#f7c870;
+    font-size: larger;
+    text-decoration: overline;
+    border: 5px solid #ccc;
+  }
+
+  .menu li a:hover {
+    color: purple;
+    background-color: #f9f9f9;
+
+  }
+

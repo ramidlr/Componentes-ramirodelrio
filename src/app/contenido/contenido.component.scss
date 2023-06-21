@@ -1,0 +1,37 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+  }
+
+  mat-card {
+    border: 4px groove black; 
+    transition: transform 0.3s ease; 
+    box-sizing: border-box;
+    height: auto;
+    width: 350px;
+  }
+  
+  mat-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(215, 0, 0, 0.2); 
+  }
+
+  mat-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  mat-card-image img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  p, h3 {
+    font-size: smaller;
+    font-weight: 500;    
+  }
